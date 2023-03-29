@@ -1,0 +1,279 @@
+.header{
+    background: url('https://preview.colorlib.com/theme/sogo/images/xhero_4.jpg.pagespeed.ic.1tASHklKp8.webp');
+    background-size: cover;
+    min-height: 700px;
+    width: 100%;
+}
+
+.form{
+    position: absolute;
+    width: 70vw;
+    min-width: 1000px;
+    height: 145px;
+    margin-top: -62px;
+    background-color: white;
+    padding-top: 26px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px #e4e5e7;
+}
+
+.form form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form input[type=date]{
+    width: 200px;
+    height: 45px;
+    padding: 6px;
+}
+
+.form select{
+    width: 100px;
+    height: 45px;
+    padding: 6px;
+}
+
+.form label{
+    font-size: 18px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.form-button{
+    height: 50px;
+}
+
+.welcome{
+    /* height: 500px; */
+    width: 100%;
+    background-color: #f2f4fb;
+    padding-top: 170px;
+    padding-bottom: 80px;
+}
+
+.welcome2{
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.welcome-content{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    font-size: 50px;
+}
+
+.welcome-content .button{
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.welcome-image{
+    border-radius: 4px;
+    width: 58%;
+    height: 400px;
+    background: url('https://preview.colorlib.com/theme/sogo/images/ximg_1.jpg.pagespeed.ic.sI14MfHd8f.webp');
+    background-size: cover;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+}
+
+.images img{
+    width: 350px;
+}
+
+.images div{
+    margin: 15px;
+}
+
+.room-name{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.room-cost{
+    font-size: 18px;
+}
+
+.photos{
+    background-color: #f2f4fb;
+    padding-bottom: 80px;
+}
+
+.restaurant{
+    background: url('https://preview.colorlib.com/theme/sogo/images/xhero_3.jpg.pagespeed.ic.E0AL0Eb0b0.webp');
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.restaurant::before{
+    min-height: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.index{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.main-menu{
+    width: 230px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.menu{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col1,.col2{
+    width: 45%;
+}
+
+.main-menu p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.say{
+    font-size: 50pt;
+    text-align: center;
+    
+    font-family: 'Gideon Roman', cursive;
+}
+
+.review{
+    text-align: center;
+    margin: auto 20px;
+}
+.image{
+    height: 90px;
+    width: 100px;
+    
+    border-radius: 50%;
+}
+.navbar{
+    margin-top: 0px;
+}
+.nav-left{
+    margin-left: 516px;
+}
+#navbarDropdown{
+    color: rgb(0, 0, 0);
+    margin-left: 25px;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+} 
+#support{
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn{
+    margin-left: 21px;
+}
+.contact-index{
+    text-decoration: none;
+    color: white;
+}
+.contact-index:hover{
+    color: red;
+    font-weight: bold;
+    transition: ease-out;
+}
+.left{
+ margin-left: 50px;   
+}
+.leftt{
+    margin-left: 30px;
+}
+.nav-color{
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+#navbolte{
+    position: absolute;
+}
+.bac{
+    height: 450px;
+    width: 1500px;
+    position: absolute;
+}
+.hotel{
+    font-size: 60px;
+    color: black;
+    position: absolute;
+    text-align: center;
+    font-family: 'Gideon Roman', cursive;
+    margin-left: 130px;
+}
+.sogo{
+    height: 80px;
+    width: 100px;
+    position: relative;
+}    
+footer{
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer-color{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-img{
+    margin: 10px auto;
+}
+
+.footer-img img{
+    margin: 8px 15px auto 15px;
+    width: 30px;
+}
